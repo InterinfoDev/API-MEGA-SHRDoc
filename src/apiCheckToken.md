@@ -41,6 +41,7 @@ Here is a JSON representation of request.
 | FieldName | Description |
 |:----------|:-------------|
 | refreshToken | 新 token |
+| loginUrl | 登入網址 |
 
 
 ### HTTP Response when Successful
@@ -51,7 +52,8 @@ Here is a JSON representation of request.
         "resultCode": "200"
     },
     "responseBody": {
-        "refreshToken": "12724332507640369936588067624218587609270069965590708406437785953105268880553881948858089532274080"
+        "refreshToken": "xxx",
+        "loginUrl": "xxx"
     }
 }
 ```
